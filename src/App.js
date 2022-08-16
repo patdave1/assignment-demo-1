@@ -2,6 +2,7 @@
 // import Myfood from "./components/Myfood"
 // import counter from "./components/Counter";
 import TaskManager from "./components/TaskManager";
+import Form from "./components/Form";
 
 function App() {
   return(
@@ -11,7 +12,9 @@ function App() {
       <Myself name="Ato Kwamena" age={35} gender="Male" />
       <Myfood  name="Quob3" origine="Volata" nickname="conceret" />     
       */}
-      <TaskManager/>
+      {/* <TaskManager/> */}
+      <Form/>
+
      </div>
   )
 } 
